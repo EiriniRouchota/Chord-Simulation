@@ -3,23 +3,32 @@
 
 # Υλοποιημένες Λειτουργίες
 
-Type [1] to insert a new (key/value) pair in the Chord ring
+- **insert a new (key/value) pair** in the Chord ring</br>
+ - **delete a (key/value) pair** from the Chord ring</br>
+ - **update value** in an existing (key/value) pair</br>
+ - perform an **exact match in the network (Lookup)**</br>
+ - display **current Chord ring configuration**</br>
+ - **add a new Node (Join)** in the Chord ring</br>
+ - **delete an existing Node (Leave)** from the Chord ring</br>
+-  run a **complete benchmark** on the current Chord ring</br>
 
-Type [2] to delete a (key/value) pair from the Chord ring
+# How to run
 
-Type [3] to update value in an existing (key/value) pair
+**usage:** Chord.py [-h] [-n N] [-fn FN] [-d D] [-fr FR] [-fs FS]
 
-Type [4] to perform an exact match in the network (Lookup)
+**Implementing Chord**
 
-Type [5] to display current Chord ring configuration
+optional arguments:
+<pre>
+  -h, --help  show this help message and exit
+  -n 	N        N is number of initial numbers of nodes withing Chord ring
+  -fn 	FN      FN is the input csv file name to read data from
+  -d 	D        D is the number of data records to be loaded from the input csv file
+  -fr 	FR      FR is the number of the stored successor failure recovery. If
+                not set no failure recovery action will be used
+  -fs 	FS      FS is the name of the file in which statistics will be written
+</pre>
 
-Type [6] to add a new Node (Join) in the Chord ring
-
-Type [7] to delete an existing Node (Leave) from the Chord ring
-
-Type [8] to run a complete benchmark on the current Chord ring
-
-Type [0] to exit
 
 ### Ρεαλιστική Προσέγγιση 
 1.	Προφανής επέκτασή της σε πραγματικό δίκτυο με υπολογιστές που ο καθένας έχει τη δική του διεύθυνση (ip, port) επικοινωνίας.
