@@ -1,5 +1,5 @@
 # Chord-Simulation
-:pushpin: Μία [ρεαλιστική](#Ρεαλιστική-Προσέγγιση) υλοποίηση βασικών λειτουργιών του πρωτοκόλου Chord όπως αναλύονται στο [[1]](#Βιβλιογραφία). 
+:pushpin: Μία [ρεαλιστική](#Ρεαλιστική-Προσέγγιση) υλοποίηση βασικών λειτουργιών του πρωτοκόλλου Chord όπως αναλύονται στο [[1]](#Βιβλιογραφία). 
 
 # Υλοποιημένες Λειτουργίες
 
@@ -29,6 +29,11 @@ optional arguments:
   -fs 	FS      FS is the name of the file in which statistics will be written
 </pre>
 
+## Screenshots 
+
+![image](https://user-images.githubusercontent.com/68953073/156058306-3662152d-975b-49fb-97cd-a5ec3cd5c0c3.png)
+
+![image](https://user-images.githubusercontent.com/68953073/156058163-a632be0b-590d-45d1-8fa7-e1339c8fc380.png)
 
 ### Ρεαλιστική Προσέγγιση 
 1.	Προφανής επέκτασή της σε πραγματικό δίκτυο με υπολογιστές που ο καθένας έχει τη δική του διεύθυνση (ip, port) επικοινωνίας.
