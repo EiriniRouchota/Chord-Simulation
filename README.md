@@ -1,11 +1,14 @@
 # Chord-Simulation
-:pushpin: Μία [ρεαλιστική](#Ρεαλιστική Προσέγγιση) υλοποίηση βασικών λειτουργιών του πρωτοκόλου Chord όπως αναλύονται στο [[1]](#Βιβλιογραφία). 
+:pushpin: Μία [ρεαλιστική](#Ρεαλιστική-Προσέγγιση) υλοποίηση βασικών λειτουργιών του πρωτοκόλου Chord όπως αναλύονται στο [[1]](#Βιβλιογραφία). 
 
 # Υλοποιημένες Λειτουργίες
 
 Type [1] to insert a new (key/value) pair in the Chord ring
+
 Type [2] to delete a (key/value) pair from the Chord ring
+
 Type [3] to update value in an existing (key/value) pair
+
 Type [4] to perform an exact match in the network (Lookup)
 Type [5] to display current Chord ring configuration
 Type [6] to add a new Node (Join) in the Chord ring
@@ -17,7 +20,7 @@ Type [0] to exit
 1.	Προφανής επέκτασή της σε πραγματικό δίκτυο με υπολογιστές που ο καθένας έχει τη δική του διεύθυνση (ip, port) επικοινωνίας.
 2.	Η υλοποίηση με threads απεικονίζει κατάλληλα την παράλληλη εκτέλεση διαφόρων λειτουργιών τόσο μέσα σε κάθε κόμβο όσο και σε όλους τους κόμβους ταυτόχρονα. Ο μόνος περιορισμός σε αυτό προέρχεται από το λειτουργικό σύστημα και τον υπολογιστή στον οποίο εκτελείται η προσομοίωση.
 
-# Τo be done
+#### Τo be done
 - Ολοκλήρωση failure recovery
 - Επέκταση σε δίκτυο με πραγματικούς υπολογιστές 
 
