@@ -1,5 +1,5 @@
 # Chord-Simulation
-:pushpin: Μία [ρεαλιστική](#Ρεαλιστική-Προσέγγιση) υλοποίηση βασικών λειτουργιών του πρωτοκόλλου Chord όπως αναλύονται στο [[1]](#Βιβλιογραφία). 
+:pushpin: Μία [ρεαλιστική](#Ρεαλιστική-Προσέγγιση) υλοποίηση βασικών λειτουργιών του πρωτοκόλλου Chord όπως αναλύονται στο [[1]](#Βιβλιογραφία). Υλοποίηση με **sockets** και **threading**. 
 
 # Υλοποιημένες Λειτουργίες
 
@@ -27,6 +27,11 @@ optional arguments:
   -fr 	FR      FR is the number of the stored successor failure recovery. If
                 not set no failure recovery action will be used
   -fs 	FS      FS is the name of the file in which statistics will be written
+</pre>
+
+**Statistical Analysis**
+<pre>
+ python stats.py statistics.csv
 </pre>
 
 ## Screenshots 
