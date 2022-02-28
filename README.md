@@ -55,9 +55,12 @@ optional arguments:
 
 [2] STOICA, I., MORRIS, R., KARGER, D., KAASHOEK, M. F., AND BALAKRISHNAN, H. Chord: A scalable peer-to-peer lookup service for internet applications. Tech. Rep. TR-819, MIT LCS, March 2001. http://www.pdos.lcs.mit.edu/chord/papers/.
 
-###### Documentation report available 
-Further information :question: Don't hesitate to contact me !
-
 ## License & copyright 
 Licensed under the [MIT License](LICENSE) 
 
+
+
+
+
+###### Documentation report available 
+Further information :question: Don't hesitate to contact me !
